@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ data.question }}</title>
+</head>
+<body>
+<h1>{{ data.question }}</h1>
+
+<form action="/poll">
+
+    <label for="uname">Please enter your name: </label><br>
+    <input type="text" id="uname" name="name">
+
+    {% for e in data.genres %}
+        <input type="checkbox" name="genres" value="{{ e }}"> {{ e }}<br>
+    {% endfor %}
+
+    <input type="submit" value="Vote" />
+</form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+Django
+aaa
+aaa
+("It's Such a Beautiful Day", 5.0, 2)
+("It's Such a Beautiful Day", 5.0, 2)
+('The Pacific', 5.0, 1)
+('Inception', 4.04954954954955, 111)
+Adventure
+Adventure
+Horror
+Romance
+('Dark Knight Rises, The', 3.6875, 48)
+('Dark Knight Rises, The', 3.6875, 48)
+('Dark Knight Rises, The', 3.6875, 48)
+('Dark Knight Rises, The', 3.6875, 48)
+('Dark Knight Rises, The', 3.6875, 48)
+('Inception', 4.04954954954955, 111)
+('Dark Knight Rises, The', 3.6875, 48)
+('Inception', 4.04954954954955, 111)
+('Inception', 4.04954954954955, 111)
+('Inception', 4.04954954954955, 111)
+('Inception', 4.04954954954955, 111)
+('Inception', 4.04954954954955, 111)
+('Inception', 4.04954954954955, 111)
+('Inception', 4.04954954954955, 111)
+('Toy Story 3', 4.071428571428571, 42)
+('Toy Story 3', 4.071428571428571, 42)
+('Toy Story 3', 4.071428571428571, 42)

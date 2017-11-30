@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>{{ data.title }}</h1>
+
+
+<form action="/starter">
+
+    <input type="checkbox" name="year" value="{{ data.year }}"> Year: {{ data.year }}<br>
+    <input type="checkbox" name="genres" value="{{ data.genres }}"> Genre: {{ data.genres }}<br>
+    <input type="checkbox" name="rating_cnt" value="{{ data.rating_cnt }}"> # of ratings:{{ data.rating_cnt }}<br>
+    <input type="checkbox" name="rating_ave" value="{{ data.rating_ave }}"> Average: {{ data.rating_ave }}<br>
+
+    <label for="uname">Choose a rationale: </label><br>
+
+    <input type="text" id="uname" name="name">
+
+    <h3>rate this movie</h3>
+
+    <select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+
+    <button>Submit</button>
+
+
+</form>
+
+
+</body>
+</html>
